@@ -1,0 +1,44 @@
+﻿# 大文件
+*.7z
+*.pt
+*.pth
+*.weights
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+*.egg
+
+# Node / Vue
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDE
+.idea/
+*.iml
+
+# 数据集 & 运行产物
+dataset/
+runs/
+train/
+valid/
+test/
+video/
+
+# 环境变量
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 输出图片
+detect/
+result.jpg
