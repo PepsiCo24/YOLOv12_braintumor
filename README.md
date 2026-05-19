@@ -196,6 +196,6 @@ python train.py
 ## 系统截图
 
 ![首页](img/startpage.png)
-![图像检测页面](img/photo_detect.png)
+![图像检测页面](img/photos_detect.png)
 ![视频检测页面](img/video_detect.png)
 ![摄像检测页面](img/camera_detect.png)
