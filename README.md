@@ -7,7 +7,7 @@
 | 层级 | 技术 |
 |------|------|
 | 深度学习推理 | YOLOv8 / YOLOv11 / YOLOv12 + Ultralytics |
-| AI 辅助分析 | DeepSeek API / Qwen (硅基流动) |
+| AI 辅助分析 | DeepSeek API / Qwen  |
 | Python 后端 | Flask + Flask-SocketIO (端口 5000) |
 | Java 后端 | SpringBoot 3 + MyBatis-Plus + MySQL (端口 9999) |
 | 前端 | Vue 3 + Vite + Element Plus + ECharts |
@@ -93,9 +93,6 @@ BrainTumorDetection_inital/
 
 ## 快速部署
 
-> 详细图文教程请参考 `YOLO&DeepSeek系统部署教程.pdf`  
-> 视频教程：[B站链接](https://www.bilibili.com/video/BV1Nn99YqERV/)
-
 ### 1. 创建 Python 虚拟环境
 
 ```bash
@@ -134,7 +131,7 @@ self.DeepSeek = '你的DeepSeek密钥'   # https://platform.deepseek.com
 self.Qwen = '你的Qwen密钥'           # https://cloud.siliconflow.cn
 ```
 
-- **DeepSeek**：需充值（最低 10 元），在 [DeepSeek 开放平台](https://platform.deepseek.com) 创建 API Key
+- **DeepSeek**：在 [DeepSeek 开放平台](https://platform.deepseek.com) 创建 API Key
 - **Qwen（硅基流动）**：免费额度，注册后在 [硅基流动](https://cloud.siliconflow.cn) 创建 API Key
 - 如不使用 AI 分析功能，前端选择时不选 DeepSeek/Qwen 即可
 
@@ -198,13 +195,6 @@ python train.py
 
 ## 系统截图
 
-![首页](img/PixPin_2025-03-08_11-04-12.png)
+![首页](img/startpage.png)
 
 *更多截图见 `img/` 目录*
-
-## 注意事项
-
-- 本系统不可用于二次销售，违者必究
-- 安装过程出现问题请自行百度，不提供免费答疑
-- 需要远程部署可联系微信：L3090677003（收费部署）
-- 模型权重文件（`.pt`）体积较大，不在本仓库中，请自行训练或联系获取
