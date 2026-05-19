@@ -89,7 +89,7 @@ BrainTumorDetection_inital/
 | MySQL | 8.0+ |
 | Node.js | 18+ |
 | FFmpeg | 7.x |
-| JDK | 17+ (SpringBoot 内置, 无需单独安装) |
+| JDK | 1.8 |
 
 ## 快速部署
 
@@ -196,5 +196,6 @@ python train.py
 ## 系统截图
 
 ![首页](img/startpage.png)
-
-*更多截图见 `img/` 目录*
+![图像检测页面](img/photo_detect.png)
+![视频检测页面](img/video_detect.png)
+![摄像检测页面](img/camera_detect.png)
